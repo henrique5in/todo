@@ -1,3 +1,4 @@
 const app = require('./');
-
-app.listen(3333);
+const port = 8081
+app.listen(port);
+console.log('Server is running on port: ', port);
